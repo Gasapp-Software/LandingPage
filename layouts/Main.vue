@@ -71,20 +71,17 @@
       >
         <li class="inline-block w-auto mr-7">
           <a href="#about" class="text-gray-700 hover:text-primary-500"
-            >About</a
+            >Customers</a
           >
         </li>
         <li class="inline-block w-auto mr-7">
           <a href="#portfolio" class="text-gray-700 hover:text-primary-500"
-            >Portfolio</a
+            >Dispatcher</a
           >
         </li>
         <li class="inline-block w-auto mr-7">
-          <a href="#work" class="text-gray-700 hover:text-primary-500">Work</a>
-        </li>
-        <li class="inline-block w-auto">
-          <a href="#contact" class="text-gray-700 hover:text-primary-500"
-            >Contact</a
+          <a href="#work" class="text-gray-700 hover:text-primary-500"
+            >Businesses</a
           >
         </li>
       </ul>
