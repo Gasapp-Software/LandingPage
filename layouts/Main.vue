@@ -1,12 +1,15 @@
 <template>
   <div class="font-sans relative pb-20 md:pb-10">
-    <img
-      src="/patterns/yellow_ellipse.png"
-      class="w-52 h-auto top-0 right-0 hidden md:block absolute"
-      style="z-index: 0"
-      alt=""
-    />
-    <header class="navbar w-full md:sticky top-0 left-0 z-20">
+    <div
+      class="w-full flex justify-between absolute top-0"
+      style="height: 720px"
+    >
+      <div class="hidden lg:block lg:w-6/12 h-full"></div>
+      <div
+        class="hidden lg:block lg:w-5/12 h-full hero-pattern rounded-bl-2xl"
+      ></div>
+    </div>
+    <header class="w-full md:absolute top-0 left-0 z-20">
       <div
         class="
           px-4
@@ -19,31 +22,31 @@
           py-3
         "
       >
-        <div class="w-20 font-bold">S U N</div>
-        <nav v-if="isHomePage === true" class="flex items-center text-sm">
-          <ul class="md:flex text-gray-600 items-center mr-4 hidden">
-            <li class="mr-9">
-              <a href="#about" class="hover:text-primary-500">About</a>
-            </li>
-            <li class="mr-9">
-              <a href="#portfolio" class="hover:text-primary-500">Portfolio</a>
-            </li>
-            <li class="mr-9">
-              <a href="#work" class="hover:text-primary-500">Work</a>
-            </li>
-            <li class="mr-9">
+        <div class="flex items-center">
+          <a class="w-32 inline-block font-bold mr-4 md:mr-14">
+            <img src="/gasapp_logo.svg" alt="Gasapp Logo" />
+          </a>
+          <nav v-if="isHomePage === true" class="flex items-center text-sm">
+            <ul class="md:flex text-gray-600 items-center mr-4 hidden">
+              <li class="mr-9">
+                <a href="#about" class="hover:text-primary-500">Dispatchers</a>
+              </li>
+              <li class="mr-9">
+                <a href="#portfolio" class="hover:text-primary-500">Vendors</a>
+              </li>
+              <li class="mr-9">
+                <a href="#work" class="hover:text-primary-500">Customers</a>
+              </li>
+              <!-- <li class="mr-9">
               <a href="#contact" class="hover:text-primary-500">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="p-2 border border-primary-300 rounded-full">
-          <nuxt-link exact active-class="active" to="/" class="section-links">
-            Pr<span class="hidden md:inline">ofile</span>
-          </nuxt-link>
-          <nuxt-link active-class="active" to="/blog" class="section-links">
-            Bl<span class="hidden md:inline">og</span>
-          </nuxt-link>
+            </li> -->
+            </ul>
+          </nav>
         </div>
+        <action-e-link
+          :extra-css="['btn-primary__light', 'text-sm', 'btn-rounded']"
+          >Contact us</action-e-link
+        >
       </div>
     </header>
     <aside

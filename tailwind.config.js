@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         primary: colors.teal,
         secondary: colors.yellow,
+        gray: colors.trueGray,
       },
       fontFamily: {
         sans: ['Sofia Pro Regular', 'system-ui'],

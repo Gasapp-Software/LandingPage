@@ -1,6 +1,12 @@
 <template>
   <div>
     <!-- Hero phrase start -->
+    <home-hero />
+    <!-- Hero phrase end -->
+    <!-- Value proposition start -->
+    <home-value />
+    <!-- Value proposition end -->
+    <home-order />
   </div>
 </template>
 
