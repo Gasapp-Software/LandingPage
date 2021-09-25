@@ -88,8 +88,8 @@
     </aside>
     <nuxt-child />
     <footer></footer>
-    <socials />
-    <email-comp />
+    <!-- <socials />
+    <email-comp /> -->
   </div>
 </template>
 <script>

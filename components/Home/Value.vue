@@ -1,7 +1,7 @@
 <template>
   <section class="px-6 pt-20 pb-20">
     <div class="max-w-5xl mx-auto flex justify-between flex-wrap">
-      <div class="w-full lg:w-2/12">
+      <div class="w-full lg:w-4/12">
         <h2
           class="
             text-5xl
@@ -10,13 +10,33 @@
             md:text-left
             outlined-text
             primary
+            hide-slideUp
           "
         >
           Value assured
         </h2>
+        <div class="mt-10 w-full">
+          <figure
+            class="
+              w-full
+              hide-slideUp
+              block
+              h-80
+              bg-gray-800
+              rounded-2xl
+              overflow-hidden
+            "
+          >
+            <img
+              src="/value.jpg"
+              class="w-full h-full object-cover object-right-bottom"
+              alt="Gasapp value services"
+            />
+          </figure>
+        </div>
       </div>
       <div class="w-full grid grid-col-1 gap-6 md:grid-cols-2 lg:w-6/12">
-        <div>
+        <div class="hide-slideUp">
           <div class="w-full h-32 rounded-xl bg-gray-700 mb-3"></div>
           <h3 class="text-base font-bold text-gray-800 mb-3">
             Lightspeed Delivery
@@ -26,7 +46,7 @@
             to you before you even think of reaching for the clock
           </p>
         </div>
-        <div>
+        <div class="hide-slideUp">
           <div class="w-full h-32 rounded-xl bg-gray-700 mb-3"></div>
           <h3 class="text-base font-bold text-gray-800 mb-3">Order Choice</h3>
           <p class="text-gray-500 text-sm">
@@ -35,7 +55,7 @@
             petrol, kerosene and diesel
           </p>
         </div>
-        <div>
+        <div class="hide-slideUp">
           <div class="w-full h-32 rounded-xl bg-gray-700 mb-3"></div>
           <h3 class="text-base font-bold text-gray-800 mb-3">
             Trusted Vendors
@@ -46,7 +66,7 @@
             petroleum products your money can buy.
           </p>
         </div>
-        <div>
+        <div class="hide-slideUp">
           <div class="w-full h-32 rounded-xl bg-gray-700 mb-3"></div>
           <h3 class="text-base font-bold text-gray-800 mb-3">
             Reliable Dispatchers

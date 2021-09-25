@@ -13,10 +13,11 @@ export default {
               // Element to be observed
               const target = entry.target
               target.classList.add(addedClass)
-              //   observer.unobserve(target)
-            } else {
-              entry.target.classList.remove(addedClass)
+              observer.unobserve(target)
             }
+            // else {
+            //   entry.target.classList.remove(addedClass)
+            // }
           })
         },
         {

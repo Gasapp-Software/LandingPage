@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="border-8 border-black rounded-3xl relative"
+      class="border-8 border-black rounded-3xl relative custom-shadow"
       style="aspect-ratio: 6 / 13"
     >
       <div class="h-1/6 bg-black w-2 absolute top-6 -left-3"></div>
@@ -62,12 +62,22 @@ export default {
   },
   methods: {
     changeScreenIndex() {
-      if (this.defaultScreenIndex === this.screens.length - 1)
-        return (this.defaultScreenIndex = 0)
-      return (this.defaultScreenIndex += 1)
+      if (this.defaultScreenIndex === this.screens.length - 1) {
+        this.defaultScreenIndex = 0
+      } else {
+        this.defaultScreenIndex += 1
+      }
+      this.emitChangeEvent()
+    },
+    emitChangeEvent() {
+      this.$emit('indexChange', this.defaultScreenIndex)
     },
   },
 }
 </script>
 
-<style></style>
+<style>
+.custom-shadow {
+  filter: drop-shadow(30px 30px 30px rgba(0, 0, 0, 0.304));
+}
+</style>

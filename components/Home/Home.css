@@ -21,7 +21,31 @@
 .order-bg {
   background-color: #ffffff;
   opacity: 1;
-  background-image:  linear-gradient(30deg, #efefef 12%, transparent 12.5%, transparent 87%, #efefef 87.5%, #efefef), linear-gradient(150deg, #efefef 12%, transparent 12.5%, transparent 87%, #efefef 87.5%, #efefef), linear-gradient(30deg, #efefef 12%, transparent 12.5%, transparent 87%, #efefef 87.5%, #efefef), linear-gradient(150deg, #efefef 12%, transparent 12.5%, transparent 87%, #efefef 87.5%, #efefef), linear-gradient(60deg, #efefef77 25%, transparent 25.5%, transparent 75%, #efefef77 75%, #efefef77), linear-gradient(60deg, #efefef77 25%, transparent 25.5%, transparent 75%, #efefef77 75%, #efefef77);
+  background-image: linear-gradient(30deg, #efefef 12%, transparent 12.5%, transparent 87%, #efefef 87.5%, #efefef), linear-gradient(150deg, #efefef 12%, transparent 12.5%, transparent 87%, #efefef 87.5%, #efefef), linear-gradient(30deg, #efefef 12%, transparent 12.5%, transparent 87%, #efefef 87.5%, #efefef), linear-gradient(150deg, #efefef 12%, transparent 12.5%, transparent 87%, #efefef 87.5%, #efefef), linear-gradient(60deg, #efefef77 25%, transparent 25.5%, transparent 75%, #efefef77 75%, #efefef77), linear-gradient(60deg, #efefef77 25%, transparent 25.5%, transparent 75%, #efefef77 75%, #efefef77);
   background-size: 46px 81px;
   background-position: 0 0, 0 0, 23px 40px, 23px 40px, 0 0, 23px 40px;
+}
+
+.paragraph-lg {
+  @apply mb-5 text-2xl font-bold text-gray-600
+}
+
+.icon-check {
+  min-width: 1.5rem;
+  @apply w-6 h-6 rounded-full flex justify-center items-center;
+}
+
+.business-bg {
+  background-color: #e2fff5;
+  opacity: 1;
+  background-image: linear-gradient(135deg, #d9f6ec 25%, transparent 25%), linear-gradient(225deg, #d9f6ec 25%, transparent 25%), linear-gradient(45deg, #d9f6ec 25%, transparent 25%), linear-gradient(315deg, #d9f6ec 25%, #e2fff5 25%);
+  background-position: 23px 0, 23px 0, 0 0, 0 0;
+  background-size: 46px 46px;
+  background-repeat: repeat;
+}
+
+@screen md {
+  .paragraph-lg {
+    @apply text-4xl
+  }
 }

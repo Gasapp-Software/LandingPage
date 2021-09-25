@@ -13,12 +13,13 @@
           font-bold
           text-gray-800
           md:w-6/12
+          hide-slideUp
         "
       >
-        Making an order is super easy
+        Making an order is super <span class="text-primary-600">easy</span>
       </h2>
       <div class="flex justify-between items-center flex-wrap">
-        <div class="w-full mb-3 lg:w-3/12">
+        <div class="w-full mb-3 lg:w-3/12 hide-slideInLeft">
           <span
             class="
               block
@@ -44,15 +45,15 @@
               font-mono
             "
           >
-            01
+            {{ steps[defaultStepIndex].step }}
           </p>
         </div>
         <div class="w-full mb-6 lg:w-4/12">
-          <div class="w-8/12 mx-auto">
-            <phone />
+          <div class="w-8/12 mx-auto hide-slideUp">
+            <phone :screens="phoneScreens" @indexChange="changeIndex($event)" />
           </div>
         </div>
-        <div class="w-full lg:w-3/12">
+        <div class="w-full lg:w-3/12 hide-slideInRight">
           <p
             class="
               text-center
@@ -63,7 +64,7 @@
               text-gray-600
             "
           >
-            Login to Gasapp
+            {{ steps[defaultStepIndex].instruction }}
           </p>
         </div>
       </div>
@@ -72,7 +73,52 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      defaultStepIndex: 0,
+      phoneScreens: [
+        '/phone_screens/customer/1.png',
+        '/phone_screens/customer/2.png',
+        '/phone_screens/customer/3.png',
+        '/phone_screens/customer/4.png',
+        '/phone_screens/customer/5.png',
+        '/phone_screens/customer/6.png',
+      ],
+      steps: [
+        {
+          step: '01',
+          instruction: 'Login to Gasapp',
+        },
+        {
+          step: '02',
+          instruction: 'Enter quantity of product to be ordered',
+        },
+        {
+          step: '03',
+          instruction: 'Find vendor and dispatcher',
+        },
+        {
+          step: '04',
+          instruction: 'Select payment method',
+        },
+        {
+          step: '05',
+          instruction: 'Confirm order',
+        },
+        {
+          step: '06',
+          instruction: 'Wait for Dispatcher',
+        },
+      ],
+    }
+  },
+  methods: {
+    changeIndex(e) {
+      this.defaultStepIndex = e
+    },
+  },
+}
 </script>
 
 <style scoped>

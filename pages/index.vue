@@ -7,6 +7,10 @@
     <home-value />
     <!-- Value proposition end -->
     <home-order />
+
+    <home-dispatchers />
+
+    <home-business />
   </div>
 </template>
 
