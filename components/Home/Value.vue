@@ -1,7 +1,7 @@
 <template>
   <section class="px-6 pt-20 pb-20">
     <div class="max-w-5xl mx-auto flex justify-between flex-wrap">
-      <div class="w-full lg:w-4/12">
+      <div class="w-full lg:w-4/12 mb-10">
         <h2
           class="
             text-5xl
