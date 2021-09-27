@@ -1,5 +1,5 @@
 <template>
-  <section class="px-6 pt-20 pb-20">
+  <section id="dispatcher" class="px-6 pt-20 pb-20">
     <div class="max-w-5xl mx-auto flex justify-between flex-wrap">
       <h2
         class="
@@ -7,13 +7,13 @@
           md:w-6/12
           mx-auto
           text-5xl text-center
-          md:text-8xl
-          outlined-text
-          secondary
+          md:text-7xl
+          text-gray-900
           hide-slideUp
+          font-bold
         "
       >
-        Earn as a Dispatcher
+        Earn as a <span class="text-red-500">Dispatcher</span>
       </h2>
       <div class="flex mt-10 flex-wrap w-full items-stretch justify-center">
         <div class="w-full md:w-6/12 mb-10 md:mb-0">
@@ -50,19 +50,19 @@
               />
             </p>
             <p
-              class="text-base md:text-lg text-gray-700 mb-3 hide-slideInRight"
+              class="text-base md:text-lg text-gray-800 mb-3 hide-slideInRight"
             >
               Register as a Gasapp Dispatcher and get paid per delivery you
               complete.
             </p>
-            <p class="text-base md:text-lg text-gray-700 hide-slideInRight">
-              You are eligible to be Gasapp dispatch rider if ;
+            <p class="text-base md:text-lg text-gray-800 hide-slideInRight">
+              You are eligible to be Gasapp dispatch rider if :
             </p>
             <div class="mt-5">
               <div
-                class="flex items-center mb-3 text-gray-500 hide-slideInRight"
+                class="flex items-center mb-3 text-gray-700 hide-slideInRight"
               >
-                <span class="icon-check bg-primary-100 text-primary-600">
+                <span class="icon-check bg-primary-100 text-primary-700">
                   <check-icon size="1x" />
                 </span>
                 <div class="ml-3 w-10/12 text-sm">
@@ -70,9 +70,9 @@
                 </div>
               </div>
               <div
-                class="flex items-center mb-3 text-gray-500 hide-slideInRight"
+                class="flex items-center mb-3 text-gray-700 hide-slideInRight"
               >
-                <span class="icon-check bg-primary-100 text-primary-600">
+                <span class="icon-check bg-primary-100 text-primary-700">
                   <check-icon size="1x" />
                 </span>
                 <div class="ml-3 w-10/12 text-sm">
@@ -80,9 +80,9 @@
                 </div>
               </div>
               <div
-                class="flex items-center mb-3 text-gray-500 hide-slideInRight"
+                class="flex items-center mb-3 text-gray-700 hide-slideInRight"
               >
-                <span class="icon-check bg-primary-100 text-primary-600">
+                <span class="icon-check bg-primary-100 text-primary-700">
                   <check-icon size="1x" />
                 </span>
                 <div class="ml-3 w-10/12 text-sm">
@@ -93,55 +93,11 @@
           </div>
           <div>
             <p
-              class="text-base md:text-lg text-gray-700 mb-5 hide-slideInRight"
+              class="text-base md:text-lg text-gray-800 mb-5 hide-slideInRight"
             >
               Start your registration by downloading our dispatcher app.
             </p>
-            <div
-              class="
-                rounded-3xl
-                lg:rounded-full
-                p-2
-                w-full
-                lg:w-auto
-                border border-gray-300
-                inline-flex
-                flex-wrap
-                items-center
-                hide-slideUp
-              "
-            >
-              <action-e-link
-                :extra-css="[
-                  'btn-dark',
-                  'lg:mr-3',
-                  'w-full',
-                  'lg:w-auto',
-                  'mb-3',
-                  'lg:mb-0',
-                  'btn-rounded',
-                ]"
-              >
-                <div class="w-5 mr-4">
-                  <img class="w-full" src="/playstore.svg" alt="" />
-                </div>
-                <div>
-                  <div class="text-xs text-gray-500">Available on</div>
-                  <div class="text-white text-sm">Play store</div>
-                </div>
-              </action-e-link>
-              <action-e-link
-                :extra-css="['btn-dark', 'btn-rounded', 'w-full', 'lg:w-auto']"
-              >
-                <div class="w-6 mr-4">
-                  <img class="w-full" src="/apple.svg" alt="" />
-                </div>
-                <div>
-                  <div class="text-xs text-gray-500">Available on</div>
-                  <div class="text-white text-sm">App store</div>
-                </div>
-              </action-e-link>
-            </div>
+            <download-btn></download-btn>
           </div>
         </div>
       </div>

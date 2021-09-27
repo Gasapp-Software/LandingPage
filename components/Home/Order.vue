@@ -7,12 +7,12 @@
         class="
           mx-auto
           text-center
-          md:text-6xl
+          md:text-7xl
           mb-10
           text-5xl
           font-bold
           text-gray-800
-          md:w-6/12
+          md:w-7/12
           hide-slideUp
         "
       >
@@ -39,9 +39,7 @@
             class="
               text-5xl
               md:text-8xl
-              text-center
-              outlined-text
-              secondary
+              text-center text-red-500 text-bold
               font-mono
             "
           >
@@ -57,7 +55,8 @@
           <p
             class="
               text-center
-              md:text-left md:text-4xl
+              lg:text-left
+              md:text-4xl
               mb-5
               text-2xl
               font-bold

@@ -3,7 +3,7 @@
     <div class="max-w-5xl mx-auto flex justify-between flex-wrap">
       <div class="w-full lg:mr-10 lg:w-6/12">
         <h1
-          class="md:text-6xl text-5xl font-bold text-gray-800 hide-slideInRight"
+          class="md:text-7xl text-5xl font-bold text-gray-800 hide-slideInRight"
         >
           <span class="text-red-500">Gas</span> purchase with just a simple
           click
@@ -13,51 +13,8 @@
           enabling you order for fuel from the comfort of your home with just
           few clicks on your mobile device
         </p>
-        <div
-          class="
-            rounded-3xl
-            lg:rounded-full
-            mt-10
-            p-2
-            w-full
-            lg:w-auto
-            border border-gray-300
-            inline-flex
-            flex-wrap
-            items-center
-            hide-slideUp
-          "
-        >
-          <action-e-link
-            :extra-css="[
-              'btn-dark',
-              'lg:mr-3',
-              'w-full',
-              'lg:w-auto',
-              'mb-3',
-              'lg:mb-0',
-              'btn-rounded',
-            ]"
-          >
-            <div class="w-5 mr-4">
-              <img class="w-full" src="/playstore.svg" alt="" />
-            </div>
-            <div>
-              <div class="text-xs text-gray-500">Available on</div>
-              <div class="text-white text-sm">Play store</div>
-            </div>
-          </action-e-link>
-          <action-e-link
-            :extra-css="['btn-dark', 'btn-rounded', 'w-full', 'lg:w-auto']"
-          >
-            <div class="w-6 mr-4">
-              <img class="w-full" src="/apple.svg" alt="" />
-            </div>
-            <div>
-              <div class="text-xs text-gray-500">Available on</div>
-              <div class="text-white text-sm">App store</div>
-            </div>
-          </action-e-link>
+        <div class="mt-10">
+          <download-btn></download-btn>
         </div>
       </div>
       <div class="w-full mt-10 lg:mt-0 lg:w-4/12">

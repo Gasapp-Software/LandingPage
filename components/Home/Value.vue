@@ -1,19 +1,19 @@
 <template>
   <section class="px-6 pt-20 pb-20">
     <div class="max-w-5xl mx-auto flex justify-between flex-wrap">
-      <div class="w-full lg:w-4/12 mb-10">
+      <div class="w-full lg:w-4/12">
         <h2
           class="
             text-5xl
-            md:text-8xl
+            md:text-7xl
             text-center
             md:text-left
-            outlined-text
-            primary
+            font-bold
+            text-gray-900
             hide-slideUp
           "
         >
-          Value assured
+          <span class="text-primary-600">Value</span> assured
         </h2>
         <div class="mt-10 w-full">
           <figure
@@ -35,7 +35,17 @@
           </figure>
         </div>
       </div>
-      <div class="w-full grid grid-col-1 gap-6 md:grid-cols-2 lg:w-6/12">
+      <div
+        class="
+          w-full
+          mt-10
+          lg:mt-0
+          grid grid-col-1
+          gap-6
+          md:grid-cols-2
+          lg:w-6/12
+        "
+      >
         <div class="hide-slideUp">
           <div class="w-full h-32 rounded-xl bg-gray-700 mb-3"></div>
           <h3 class="text-base font-bold text-gray-800 mb-3">

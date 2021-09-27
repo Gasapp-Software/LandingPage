@@ -29,13 +29,17 @@
           <nav v-if="isHomePage === true" class="flex items-center text-sm">
             <ul class="md:flex text-gray-600 items-center mr-4 hidden">
               <li class="mr-9">
-                <a href="#about" class="hover:text-primary-500">Dispatchers</a>
+                <a href="#dispatcher" class="hover:text-primary-500"
+                  >Dispatchers</a
+                >
               </li>
               <li class="mr-9">
-                <a href="#portfolio" class="hover:text-primary-500">Vendors</a>
+                <a href="#retailer" class="hover:text-primary-500">Retailers</a>
               </li>
-              <li class="mr-9">
-                <a href="#work" class="hover:text-primary-500">Customers</a>
+              <li>
+                <a href="#wholesaler" class="hover:text-primary-500"
+                  >Wholesalers</a
+                >
               </li>
               <!-- <li class="mr-9">
               <a href="#contact" class="hover:text-primary-500">Contact</a>
@@ -70,18 +74,18 @@
         "
       >
         <li class="inline-block w-auto mr-7">
-          <a href="#about" class="text-gray-700 hover:text-primary-500"
-            >Customers</a
-          >
-        </li>
-        <li class="inline-block w-auto mr-7">
-          <a href="#portfolio" class="text-gray-700 hover:text-primary-500"
+          <a href="#dispatcher" class="text-gray-700 hover:text-primary-500"
             >Dispatcher</a
           >
         </li>
         <li class="inline-block w-auto mr-7">
-          <a href="#work" class="text-gray-700 hover:text-primary-500"
-            >Businesses</a
+          <a href="#retailer" class="text-gray-700 hover:text-primary-500"
+            >Retailers</a
+          >
+        </li>
+        <li class="inline-block w-auto">
+          <a href="#wholesaler" class="text-gray-700 hover:text-primary-500"
+            >Wholesalers</a
           >
         </li>
       </ul>
