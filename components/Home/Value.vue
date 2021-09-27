@@ -47,7 +47,13 @@
         "
       >
         <div class="hide-slideUp">
-          <div class="w-full h-32 rounded-xl bg-gray-700 mb-3"></div>
+          <figure class="mb-3 w-24 h-auto">
+            <img
+              class="w-full"
+              src="/services/speed.svg"
+              alt="lightspeed delivery"
+            />
+          </figure>
           <h3 class="text-base font-bold text-gray-800 mb-3">
             Lightspeed Delivery
           </h3>
@@ -57,7 +63,13 @@
           </p>
         </div>
         <div class="hide-slideUp">
-          <div class="w-full h-32 rounded-xl bg-gray-700 mb-3"></div>
+          <figure class="mb-3 w-24 h-auto">
+            <img
+              class="w-full"
+              src="/services/options.svg"
+              alt="lightspeed delivery"
+            />
+          </figure>
           <h3 class="text-base font-bold text-gray-800 mb-3">Order Choice</h3>
           <p class="text-gray-500 text-sm">
             We are called Gasapp but not limited to the delivery of gas orders.
@@ -66,7 +78,13 @@
           </p>
         </div>
         <div class="hide-slideUp">
-          <div class="w-full h-32 rounded-xl bg-gray-700 mb-3"></div>
+          <figure class="mb-3 w-24 h-auto">
+            <img
+              class="w-full"
+              src="/services/vendor.svg"
+              alt="lightspeed delivery"
+            />
+          </figure>
           <h3 class="text-base font-bold text-gray-800 mb-3">
             Trusted Vendors
           </h3>
@@ -77,7 +95,13 @@
           </p>
         </div>
         <div class="hide-slideUp">
-          <div class="w-full h-32 rounded-xl bg-gray-700 mb-3"></div>
+          <figure class="mb-3 w-24 h-auto">
+            <img
+              class="w-full"
+              src="/services/dispatcher.svg"
+              alt="lightspeed delivery"
+            />
+          </figure>
           <h3 class="text-base font-bold text-gray-800 mb-3">
             Reliable Dispatchers
           </h3>
