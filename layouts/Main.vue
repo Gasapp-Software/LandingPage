@@ -41,9 +41,6 @@
                   >Wholesalers</a
                 >
               </li>
-              <!-- <li class="mr-9">
-              <a href="#contact" class="hover:text-primary-500">Contact</a>
-            </li> -->
             </ul>
           </nav>
         </div>
