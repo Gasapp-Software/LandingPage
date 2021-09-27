@@ -48,6 +48,7 @@
           </nav>
         </div>
         <action-e-link
+          href="#contact"
           :extra-css="['btn-primary__light', 'text-sm', 'btn-rounded']"
           >Contact us</action-e-link
         >
