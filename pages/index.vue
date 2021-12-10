@@ -11,8 +11,6 @@
     <home-dispatchers />
 
     <home-business />
-
-    <bottom />
   </div>
 </template>
 

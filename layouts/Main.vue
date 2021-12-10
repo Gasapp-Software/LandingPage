@@ -26,7 +26,7 @@
           <a class="w-32 inline-block font-bold mr-4 md:mr-14">
             <img src="/gasapp_logo.svg" alt="Gasapp Logo" />
           </a>
-          <nav v-if="isHomePage === true" class="flex items-center text-sm">
+          <nav class="flex items-center text-sm">
             <ul class="md:flex text-gray-600 items-center mr-4 hidden">
               <li class="mr-9">
                 <a href="#dispatcher" class="hover:text-primary-500"
@@ -89,7 +89,7 @@
       </ul>
     </aside>
     <nuxt-child />
-    <footer></footer>
+    <bottom />
     <!-- <socials />
     <email-comp /> -->
   </div>

@@ -121,10 +121,10 @@
             >
           </li>
           <li class="mr-4 mb-2 md:mb-0">
-            <a
-              href="#"
+            <nuxt-link
+              to="/privacy_policy"
               class="text-sm text-gray-600 hover:text-gray-800 capitalize"
-              >Privacy Policy</a
+              >Privacy Policy</nuxt-link
             >
           </li>
         </ul>
