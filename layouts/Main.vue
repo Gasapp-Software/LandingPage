@@ -23,9 +23,9 @@
         "
       >
         <div class="flex items-center">
-          <a class="w-32 inline-block font-bold mr-4 md:mr-14">
+          <nuxt-link to="/" class="w-32 inline-block font-bold mr-4 md:mr-14">
             <img src="/gasapp_logo.svg" alt="Gasapp Logo" />
-          </a>
+          </nuxt-link>
           <nav class="flex items-center text-sm">
             <ul class="md:flex text-gray-600 items-center mr-4 hidden">
               <li class="mr-9">
