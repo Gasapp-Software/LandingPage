@@ -1,4 +1,4 @@
-<scetion>
+<section>
 
 # 1. Introduction.
 
