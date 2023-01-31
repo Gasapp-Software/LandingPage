@@ -96,6 +96,15 @@
 </template>
 <script>
 export default {
+  head: {
+    script: [
+      {
+        src: '/jsServices/crispChat.js',
+        async: true,
+        defer: true,
+      },
+    ],
+  },
   computed: {
     isHomePage() {
       return this.$route.name === 'index'
