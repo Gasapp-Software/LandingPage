@@ -15,7 +15,6 @@
       >
         <span class="text-primary-600">Business</span> on Gasapp
       </h2>
-      <home-business-retailer />
       <home-business-wholesaler />
     </div>
   </section>

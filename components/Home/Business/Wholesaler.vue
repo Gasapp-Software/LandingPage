@@ -1,6 +1,6 @@
 <template>
   <div
-    id="wholesaler"
+    id="vendor"
     class="
       flex
       mt-24
@@ -36,7 +36,7 @@
             hide-slideUp
           "
         >
-          Gasapp Wholesaler
+          Gasapp Vendor
           <img
             src="/icons/petroleum.svg"
             class="w-6 ml-3"
@@ -44,11 +44,11 @@
           />
         </p>
         <p class="text-base md:text-lg text-gray-800 mb-3 hide-slideInRight">
-          Wholesale businesses consist of filling stations and gas stations that
-          sell petroleum products in large scale
+          Vendors consist of filling stations and gas stations that sell
+          petroleum products in large scale
         </p>
         <p class="text-base md:text-lg text-gray-800 hide-slideInRight">
-          You are eligible to be a Gasapp wholesaler if :
+          You are eligible to be a Gasapp vendor if :
         </p>
         <div class="mt-5">
           <div class="flex items-center mb-3 text-gray-700 hide-slideInRight">
@@ -79,7 +79,7 @@
       </div>
       <div>
         <p class="text-base md:text-lg text-gray-800 mb-5 hide-slideInRight">
-          Start your registration by downloading our wholesaler app.
+          Start your registration by downloading our vendor app.
         </p>
         <download-btn></download-btn>
       </div>
@@ -97,8 +97,9 @@ export default {
   data() {
     return {
       phoneScreens: [
-        '/phone_screens/wholesaler/1.png',
-        '/phone_screens/wholesaler/2.png',
+        '/phone_screens/vendor/1.png',
+        '/phone_screens/vendor/2.png',
+        '/phone_screens/vendor/3.png',
       ],
     }
   },

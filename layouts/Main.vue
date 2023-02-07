@@ -34,12 +34,7 @@
                 >
               </li>
               <li class="mr-9">
-                <a href="#retailer" class="hover:text-primary-500">Retailers</a>
-              </li>
-              <li>
-                <a href="#wholesaler" class="hover:text-primary-500"
-                  >Wholesalers</a
-                >
+                <a href="#vendor" class="hover:text-primary-500">Vendors</a>
               </li>
             </ul>
           </nav>

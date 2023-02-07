@@ -7,17 +7,18 @@
         <h1
           class="md:text-7xl text-5xl font-bold text-gray-800 hide-slideInRight"
         >
-          Privacy <br />
-          <span class="text-red-500">Policy</span>
+          Terms and <br />
+          <span class="text-red-500">Conditions</span>
         </h1>
-        <p class="mt-3 text-sm lg:text-base text-gray-600 hide-slideInRight">
-          How we help you get the best service rendered to you without breaking
-          a sweat
+        <p class="mt-3 text-sm lg:text-base text-gray-500 hide-slideInRight">
+          Please read carefully our Termsof Service Before Placing an order on
+          GasApp Africa. By ordering Gas from Werblo’s Gas App Africa through
+          the Mobile App you agree to be bound by these Terms and Conditions.
         </p>
       </div>
     </section>
     <section class="max-w-5xl mx-auto pt-20 md:pt-52">
-      <nuxt-content :document="policy" />
+      <nuxt-content :document="terms" />
     </section>
   </main>
 </template>
@@ -28,9 +29,9 @@ export default {
   mixins: [observer],
   layout: 'Main',
   async asyncData({ $content }) {
-    const policy = await $content('new_privacy_policy').fetch()
+    const terms = await $content('terms_and_conditions').fetch()
     return {
-      policy,
+      terms,
     }
   },
 }

@@ -26,7 +26,7 @@
             hide-slideUp
           "
         >
-          <span> Gasapp Retailer </span>
+          <span> Gasapp Vendors </span>
           <img
             src="/icons/oil-barrel.svg"
             class="w-6 ml-3"
@@ -34,8 +34,8 @@
           />
         </p>
         <p class="text-base md:text-lg text-gray-800 mb-3 hide-slideInRight">
-          Retailer businesses consist of small to medium scale sellers that sell
-          gas products to customers within their vicinity
+          Vendors consist of small to medium scale sellers that sell gas
+          products to customers within their vicinity
         </p>
         <p class="text-base md:text-lg text-gray-800 hide-slideInRight">
           You are eligible to be a Gasapp retailer if :

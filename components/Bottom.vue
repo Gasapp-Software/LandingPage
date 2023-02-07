@@ -39,8 +39,8 @@
               Address
             </h4>
             <p class="text-sm text-gray-400">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Reprehenderit vero, tenetur consequuntur
+              1 Werblo Drive, 74 Behind Ibori Golf, Anwai Road, Asaba, Delta
+              state.
             </p>
           </div>
           <div>
@@ -48,10 +48,10 @@
               Email
             </h4>
             <a
-              href="mailto:support@gasapp.company"
+              href="mailto:info@werblogroups.com"
               class="text-sm text-gray-400 hover:text-gray-300"
             >
-              support@gasapp.company
+              info@werblogroups.com
             </a>
           </div>
           <div>
@@ -61,10 +61,18 @@
             <ul>
               <li class="mb-2">
                 <a
-                  href="tel:2348061410220"
+                  href="tel:2349068492301"
                   class="text-sm text-gray-400 hover:text-gray-300"
                 >
-                  +2348061410220
+                  +234-9068492301
+                </a>
+              </li>
+              <li class="mb-2">
+                <a
+                  href="tel:2349153562877"
+                  class="text-sm text-gray-400 hover:text-gray-300"
+                >
+                  +234-9153562877
                 </a>
               </li>
             </ul>
@@ -75,22 +83,20 @@
             </h4>
             <ul class="flex items-center flex-wrap">
               <li class="mr-4 mb-3">
-                <a href="#" class="text-sm text-gray-400 hover:text-gray-300">
+                <a
+                  href="https://web.facebook.com/people/Werblo-GasApp/100089660289304/"
+                  target="_blank"
+                  class="text-sm text-gray-400 hover:text-gray-300"
+                >
                   <facebook-icon size="1.5x" />
                 </a>
               </li>
               <li class="mr-4 mb-3">
-                <a href="#" class="text-sm text-gray-400 hover:text-gray-300">
-                  <twitter-icon size="1.5x" />
-                </a>
-              </li>
-              <li class="mr-4 mb-3">
-                <a href="#" class="text-sm text-gray-400 hover:text-gray-300">
-                  <linkedin-icon size="1.5x" />
-                </a>
-              </li>
-              <li class="mr-4 mb-3">
-                <a href="#" class="text-sm text-gray-400 hover:text-gray-300">
+                <a
+                  href="https://instagram.com/gasapp_africa"
+                  target="_blank"
+                  class="text-sm text-gray-400 hover:text-gray-300"
+                >
                   <instagram-icon size="1.5x" />
                 </a>
               </li>
@@ -115,7 +121,7 @@
           </li>
           <li class="mr-4 mb-2 md:mb-0">
             <a
-              href="#"
+              href="/terms_and_conditions"
               class="text-sm text-gray-600 hover:text-gray-800 capitalize"
               >Terms & Conditions</a
             >
@@ -134,17 +140,10 @@
 </template>
 
 <script>
-import {
-  TwitterIcon,
-  FacebookIcon,
-  LinkedinIcon,
-  InstagramIcon,
-} from 'vue-feather-icons'
+import { FacebookIcon, InstagramIcon } from 'vue-feather-icons'
 export default {
   components: {
-    TwitterIcon,
     FacebookIcon,
-    LinkedinIcon,
     InstagramIcon,
   },
   methods: {
