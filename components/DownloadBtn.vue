@@ -15,6 +15,7 @@
     "
   >
     <action-e-link
+      href="https://play.google.com/store/apps/dev?id=4658277415933839247"
       :extra-css="[
         'btn-dark',
         'lg:mr-3',
