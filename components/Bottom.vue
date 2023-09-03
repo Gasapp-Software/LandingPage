@@ -109,7 +109,7 @@
           <a id="#home" class="w-32 inline-block font-bold mr-4 md:mr-14">
             <img src="/gasapp_logo.svg" alt="Gasapp Logo" />
           </a>
-          <p class="text-sm text-gray-600">Gasapp © {{ getYear() }}</p>
+          <p class="text-sm text-gray-600">Werblo Group © {{ getYear() }}</p>
         </div>
         <ul class="flex items-center">
           <li class="mr-4 mb-2 md:mb-0">
